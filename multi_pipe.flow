@@ -1,0 +1,12 @@
+node=list_files
+command=ls
+node=grep_txt
+command=grep .txt
+node=word_count
+command=wc -l
+pipe=ls_to_grep
+from=list_files
+to=grep_txt
+pipe=grep_to_wc
+from=grep_txt
+to=word_count

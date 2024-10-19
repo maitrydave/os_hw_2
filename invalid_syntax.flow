@@ -1,0 +1,3 @@
+node=test
+command=echo "test"
+invalid_keyword=something

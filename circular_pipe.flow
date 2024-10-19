@@ -1,0 +1,10 @@
+node=a
+command=echo "a"
+node=b
+command=cat
+pipe=a_to_b
+from=a
+to=b
+pipe=b_to_a
+from=b
+to=a

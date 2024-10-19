@@ -1,0 +1,8 @@
+node=echo_hello
+command=echo "Hello"
+node=echo_world
+command=echo "World"
+concatenate=hello_world
+parts=2
+part_0=echo_hello
+part_1=echo_world
